@@ -1,0 +1,28 @@
+{
+    "questions": [
+        {
+            "answer": 2,
+            "choices": ["1", "2", "3", "42"],
+            "code": "x = 1 + 2",
+            "difficulty": 1,
+            "statement": "What is the value of `x`?",
+            "title": "A Plus B"
+        },
+        {
+            "answer": 3,
+            "choices": ["2", "3", "9", "19"],
+            "code": "x = 0.1 + 0.2",
+            "difficulty": 3,
+            "statement": "What is the value of `len(repr(x))`?",
+            "title": "A Plus B (Gone Wrong)"
+        },
+        {
+            "answer": 1,
+            "choices": ["True", "False", "42", "code doesn't compile"],
+            "code": "s = 'Anventia' is ...",
+            "difficulty": 4,
+            "statement": "What is the value of `s`?",
+            "title": "What is he, exactly?"
+        }
+    ]
+}
